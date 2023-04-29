@@ -31,18 +31,18 @@
 
 <h3>Méthode UserDetails</h3>
 <h4>AppUser entity</h4>
-<img src="Screenshots/Udu.png">
+<img src="Screenshots/UDu.png">
 <h4>AppRole entity</h4>
-<img src="Screenshots/Udr.png">
+<img src="Screenshots/UDr.png">
 <h4>AppUser repository</h4>
-<img src="Screenshots/Udur.png">
+<img src="Screenshots/UDur.png">
 <h4>RoleUser repository</h4>
-<img src="Screenshots/Udrr.png">
+<img src="Screenshots/UDrr.png">
 <h4>Account interface</h4>
-<img src="Screenshots/Udasi.png">
+<img src="Screenshots/UDasi.png">
 <h4>Account interface implementation</h4>
-<img src="Screenshots/Udasimp.png">
-<img src="Screenshots/Udasimp2.png">
+<img src="Screenshots/UDasimp.png">
+<img src="Screenshots/UDasimp2.png">
 <h4>Création des Users et Roles et affectation des roles</h4>
 <img src="Screenshots/Popdb.png">
 <h4>AccountDetailService implementation</h4>
