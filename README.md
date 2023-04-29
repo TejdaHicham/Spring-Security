@@ -43,7 +43,7 @@
 <h4>Account interface implementation</h4>
 <img src="Screenshots/Udasimp.png">
 <img src="Screenshots/Udasimp2.png">
-<h4>Création des Users et Roles </h4>
+<h4>Création des Users et Roles et affectation des roles</h4>
 <img src="Screenshots/Popdb.png">
 <h4>AccountDetailService implementation</h4>
 <img src="Screenshots/UDsi.png">
