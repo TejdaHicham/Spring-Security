@@ -40,13 +40,13 @@ public class ThymeleafApplication {
         return args -> {
             UserDetails u1 = jdbcUserDetailsManager.loadUserByUsername("user11");
             if(u1==null)
-            jdbcUserDetailsManager.createUser(User.withUsername("user11").password(passwordEncoder().encode("123")).roles("USER").build());
+                jdbcUserDetailsManager.createUser(User.withUsername("user11").password(passwordEncoder().encode("123")).roles("USER").build());
             UserDetails u2 = jdbcUserDetailsManager.loadUserByUsername("user22");
             if(u2==null)
-            jdbcUserDetailsManager.createUser(User.withUsername("user22").password(passwordEncoder().encode("123")).roles("USER").build());
+                jdbcUserDetailsManager.createUser(User.withUsername("user22").password(passwordEncoder().encode("123")).roles("USER").build());
             UserDetails a2 = jdbcUserDetailsManager.loadUserByUsername("admin2");
             if(a2==null)
-            jdbcUserDetailsManager.createUser(User.withUsername("admin2").password(passwordEncoder().encode("123")).roles("USER", "ADMIN").build());
+                jdbcUserDetailsManager.createUser(User.withUsername("admin2").password(passwordEncoder().encode("123")).roles("USER", "ADMIN").build());
         };
     }
     //@Bean
